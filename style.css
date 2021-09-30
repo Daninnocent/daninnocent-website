@@ -1,0 +1,59 @@
+    body {
+      background: black;
+      font-family: "heltevica";
+    }
+    head {
+      background: black;
+      color: white
+    }
+    thetextlol {
+      text-align: center;
+      background: black;
+      color: white;
+    }
+    thelist {
+      background: black;
+      color: white;
+    }
+    .me {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .youtuber {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+   .youtube {
+      display: block;
+      padding: 10px;
+    }
+    
+    
+    * {
+     	box-sizing: border-box;
+    }
+
+    .column {
+      	float: left;
+       	width: 33.33%;
+	      padding: 5px;
+    }
+
+    .row::after {
+	    content: "";
+	    display: table;
+	    clear: both;
+    }
+    
+    #containerbtn {
+      text-align: right;
+    }
+    .containertext {
+      color: white;
+      text-align: center;
+      margin: 20px;
+    }
